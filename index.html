@@ -1,0 +1,635 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magma Loan Finance</title>
+  <link rel="stylesheet" href="./src/output.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
+
+  <style>
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 11s linear infinite;
+}
+
+</style>
+</head>
+
+<body class="bg-gray-950 text-white scroll-smooth">
+<!-- Navbar -->
+  <nav class="bg-gray-900 border-b border-gray-800 px-6 py-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+      <div>
+        <h1 class="text-3xl font-bold text-orange-400">MAGMA</h1>
+        <p class="text-xs text-gray-400">Loan Finance</p>
+      </div>
+
+     <ul class="hidden md:flex space-x-10 text-lg font-semibold">
+
+  <li><a href="#home" class="hover:text-orange-400 transition">Home</a></li>
+
+  <li><a href="#owner" class="hover:text-orange-400 transition">Owner</a></li>
+
+  <li><a href="#services" class="hover:text-orange-400 transition">Services</a></li>
+
+  <li><a href="#about" class="hover:text-orange-400 transition">About</a></li>
+
+  <li><a href="#contact" class="hover:text-orange-400 transition">Contact</a></li>
+
+</ul>
+
+      <button id="menuBtn" class="md:hidden text-2xl">
+        ☰
+      </button>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden md:hidden mt-4 space-y-3 text-center">
+      <a href="#home" class="block hover:text-orange-400">Home</a>
+      <a href="#owner" class="hover:text-orange-400 transition">Owner</a>
+      <a href="#services" class="block hover:text-orange-400">Services</a>
+      <a href="#about" class="block hover:text-orange-400">About</a>
+      <a href="#contact" class="block hover:text-orange-400">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Moving Offer Bar -->
+
+<div class="bg-orange-500 overflow-hidden whitespace-nowrap py-3 border-y border-orange-300">
+
+  <div class="animate-marquee inline-block text-black font-bold text-sm md:text-base">
+
+    🔥 Instant Loan Approval Available &nbsp;&nbsp;&nbsp;
+
+    ✅ Business Loan Under ₹10 Lakhs &nbsp;&nbsp;&nbsp;
+
+    ⚡ Fast WhatsApp Support Available &nbsp;&nbsp;&nbsp;
+
+    💰 Quick Cash Loan Processing &nbsp;&nbsp;&nbsp;
+
+    🏆 Trusted Since 2017 &nbsp;&nbsp;&nbsp;
+
+    📞 Apply Now & Get Instant Response &nbsp;&nbsp;&nbsp;
+
+    🔥 Low Documentation Required &nbsp;&nbsp;&nbsp;
+
+  </div>
+
+</div>
+
+  <!-- Hero Section -->
+  
+  <section id="home" class="py-16 px-6 bg-gradient-to-r from-gray-950 to-gray-900">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <div>
+        <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+          Quick & Easy <span class="text-orange-400">Business Loans</span>
+        </h2>
+
+        <p class="text-gray-300 text-lg mb-6">
+          Magma Loan Finance helps you grow your business with trusted and fast loan services.
+          We provide business loans, finance against property and other financial solutions.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact"
+            class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-lg font-semibold">
+            Apply Now
+          </a>
+
+          <a href="#services"
+            class="border border-orange-500 hover:bg-orange-500 px-6 py-3 rounded-lg font-semibold">
+            Our Services
+          </a>
+        </div>
+
+        <div class="mt-8 flex gap-8 flex-wrap">
+          <div>
+            <h3 class="text-3xl font-bold text-orange-400">9+</h3>
+            <p class="text-gray-400 text-sm">Years Experience</p>
+          </div>
+
+          <div>
+            <h3 class="text-3xl font-bold text-orange-400">4.2★</h3>
+            <p class="text-gray-400 text-sm">Customer Ratings</p>
+          </div>
+
+          <div>
+            <h3 class="text-3xl font-bold text-orange-400">2017</h3>
+            <p class="text-gray-400 text-sm">Established</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="https://dummyimage.com/700x500/1f2937/f59e0b&text=Magma+Loan+Finance"
+          alt="Loan Finance"
+          class="rounded-2xl shadow-2xl w-full"
+        />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Owner Section -->
+
+<section id="owner" class="py-20 px-6 bg-gray-900">
+
+  <div class="max-w-6xl mx-auto">
+
+    <div class="bg-gradient-to-r  from-gray-800 to-gray-900 rounded-3xl p-8 md:p-12 border border-orange-500 shadow-2xl">
+
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+
+        <!-- Image -->
+        <div class="flex justify-center">
+
+          <img
+            src="Mama.jpg.jpeg"
+            alt="Pankaj Jha"
+            class="rounded-3xl w-full max-w-[320px] h-auto object-cover border-4 border-orange-400 shadow-2xl"
+          />
+
+        </div>
+
+        <!-- Content -->
+        <div>
+
+          <p class="text-orange-400 font-semibold mb-3 uppercase tracking-widest">
+            Trusted Loan Provider
+          </p>
+
+          <h2 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+            Pankaj Jha
+          </h2>
+
+          <p class="text-gray-300 text-lg mb-6 leading-relaxed">
+            Helping businesses and individuals get fast and trusted loan solutions
+            since 2017. Focused on customer satisfaction, quick approval and direct
+            support through WhatsApp communication.
+          </p>
+
+          <div class="grid grid-cols-2 gap-5 mb-8">
+
+            <div class="bg-gray-800 p-5 rounded-2xl border border-gray-700">
+              <h3 class="text-3xl font-bold text-orange-400">9+</h3>
+              <p class="text-gray-400 text-sm mt-1">Years Experience</p>
+            </div>
+
+            <div class="bg-gray-800 p-5 rounded-2xl border border-gray-700">
+              <h3 class="text-3xl font-bold text-orange-400">500+</h3>
+              <p class="text-gray-400 text-sm mt-1">Happy Customers</p>
+            </div>
+
+          </div>
+
+          <a
+            href="https://wa.me/917905616323"
+            target="_blank"
+            class="inline-block bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition"
+          >
+            Contact on WhatsApp
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- Loan Cards Section -->
+  <section id="services" class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4">Our Loan Services</h2>
+        <p class="text-gray-400">
+          Fast approval with trusted financial support
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Card 1 -->
+        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:border-orange-400 hover:-translate-y-3 hover:shadow-orange-500/30 hover:shadow-2xl transition duration-300">
+
+          <div class="w-16 h-16 rounded-full bg-orange-500 flex items-center justify-center text-3xl mb-6">
+            💼
+          </div>
+
+          <h3 class="text-2xl md:text-3xl font-bold mb-3">
+            Business Loan
+          </h3>
+
+          <p class="text-gray-400 mb-5">
+            Manage your business expenses, office setup, renovation and growth with easy business loans.
+          </p>
+
+          <div class="space-y-2 mb-6">
+            <p class="text-sm text-gray-300">✔ Loan Below ₹10 Lakhs</p>
+            <p class="text-sm text-gray-300">✔ Quick Approval</p>
+            <p class="text-sm text-gray-300">✔ Flexible EMI</p>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-gray-400 text-sm">Starting From</p>
+              <h4 class="text-3xl font-bold text-orange-400">₹300</h4>
+            </div>
+
+            <a 
+href="https://wa.me/917905616323?text=Hi%2C%20I%20am%20interested%20in%20Business%20Loan."
+target="_blank"
+class="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg inline-block">
+  Apply
+</a>
+          </div>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:border-orange-400 hover:-translate-y-3 hover:shadow-orange-500/30 hover:shadow-2xl transition duration-300">
+
+          <div class="w-16 h-16 rounded-full bg-orange-500 flex items-center justify-center text-3xl mb-6">
+            🏠
+          </div>
+
+          <h3 class="text-2xl md:text-3xl font-bold mb-3">
+            Finance Against Property
+          </h3>
+
+          <p class="text-gray-400 mb-5">
+            Get funds against your property for business expansion and emergency financial needs.
+          </p>
+
+          <div class="space-y-2 mb-6">
+            <p class="text-sm text-gray-300">✔ Property Based Loan</p>
+            <p class="text-sm text-gray-300">✔ Fast Processing</p>
+            <p class="text-sm text-gray-300">✔ Trusted Support</p>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-gray-400 text-sm">Easy EMI</p>
+              <h4 class="text-3xl font-bold text-orange-400">Low Rate</h4>
+            </div>
+
+            <a 
+href="https://wa.me/917905616323?text=Hi%2C%20I%20am%20interested%20in%20Finance%20Against%20Property."
+target="_blank"
+class="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg inline-block">
+  Apply
+</a>
+          </div>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-gray-800 rounded-2xl p-8 border border-gray-700 hover:border-orange-400 hover:-translate-y-3 hover:shadow-orange-500/30 hover:shadow-2xl transition duration-300">
+
+          <div class="w-16 h-16 rounded-full bg-orange-500 flex items-center justify-center text-3xl mb-6">
+            ⚡
+          </div>
+
+          <h3 class="text-2xl md:text-3xl font-bold mb-3">
+            Quick Cash Loan
+          </h3>
+
+          <p class="text-gray-400 mb-5">
+            Instant cash support for urgent needs with minimum paperwork and fast service.
+          </p>
+
+          <div class="space-y-2 mb-6">
+            <p class="text-sm text-gray-300">✔ Instant Response</p>
+            <p class="text-sm text-gray-300">✔ Less Documentation</p>
+            <p class="text-sm text-gray-300">✔ Trusted Service</p>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <div>
+              <p class="text-gray-400 text-sm">Fast Approval</p>
+              <h4 class="text-3xl font-bold text-orange-400">24 Hours</h4>
+            </div>
+
+           <a 
+href="https://wa.me/917905616323?text=Hi%2C%20I%20am%20interested%20in%20Quick%20Cash%20Loan."
+target="_blank"
+class="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-lg inline-block">
+  Apply
+</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-gray-950">
+
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+      <div>
+        <img
+          src="https://dummyimage.com/600x450/111827/f59e0b&text=Magma+Finance+Office"
+          alt="Office"
+          class="rounded-2xl shadow-xl"
+        />
+      </div>
+
+      <div>
+        <h2 class="text-4xl font-bold mb-6">
+          About Magma Loan Finance
+        </h2>
+
+        <p class="text-gray-400 mb-5">
+          Established in 2017, Magma Loan Finance provides reliable financial services
+          for business owners and individuals.
+        </p>
+
+        <p class="text-gray-400 mb-5">
+          We focus on quick loan processing, trusted customer support and easy documentation.
+        </p>
+
+        <div class="space-y-3">
+          <div class="bg-gray-800 p-4 rounded-lg">
+            ✔ Trusted Financial Support
+          </div>
+
+          <div class="bg-gray-800 p-4 rounded-lg">
+            ✔ Fast Loan Approval Process
+          </div>
+
+          <div class="bg-gray-800 p-4 rounded-lg">
+            ✔ Customer Friendly Service 
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 bg-gray-900">
+
+    <div class="max-w-6xl mx-auto">
+
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4">Contact Information</h2>
+        <p class="text-gray-400">
+          Reach us for quick loan assistance
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Contact Details -->
+        <div class="bg-gray-800 rounded-2xl p-8">
+
+          <h3 class="text-2xl font-bold mb-6 text-orange-400">
+            Office Details
+          </h3>
+
+          <div class="space-y-5 text-gray-300">
+
+            <div>
+              <p class="font-semibold text-white">Phone Number</p>
+              <p>7905616323</p>
+              <p>9708072546</p>
+            </div>
+
+            <div>
+              <p class="font-semibold text-white">Email</p>
+              <p>magmaloanfinance@gmail.com</p>
+            </div>
+
+            <div>
+              <p class="font-semibold text-white">Address</p>
+              <p>
+                Dighi West, Bhathiyarisarai,
+                Darbhanga - 846004
+              </p>
+            </div>
+
+            <div>
+              <p class="font-semibold text-white mb-2">WhatsApp</p>
+
+              <!-- Demo Link -->
+              <a href="https://wa.me/917905616323?text=Hi%2C%20I%20am%20looking%20for%20loan%20options%20or%20I%20am%20interested.""
+                class="inline-block bg-green-500 hover:bg-green-600 px-5 py-3 rounded-lg font-semibold">
+                Chat on WhatsApp
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Contact Form -->
+        <div class="bg-gray-800 rounded-2xl p-8">
+
+          <h3 class="text-2xl font-bold mb-6 text-orange-400">
+            Apply For Loan
+          </h3>
+
+          <form id="loanForm" class="space-y-5">
+
+            <input
+             type="text"
+id="name"
+placeholder="Full Name"
+              class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-400"
+            />
+
+            <input
+type="number"
+id="mobile"
+placeholder="Mobile Number"
+              class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-400"
+            />
+
+            <select id="loanType"
+              class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-400"
+            >
+              <option>Select Loan Type</option>
+              <option>Business Loan</option>
+              <option>Finance Against Property</option>
+              <option>Quick Cash Loan</option>
+            </select>
+
+            <textarea
+id="message"
+              rows="5"
+              placeholder="Message"
+              class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 focus:outline-none focus:border-orange-400"
+            ></textarea>
+
+            <button
+type="button"
+onclick="sendToWhatsApp()"
+              class="w-full bg-orange-500 hover:bg-orange-600 py-3 rounded-lg font-semibold">
+              Submit Application
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Bottom Moving Finance Bar -->
+
+<div class="bg-green-500 overflow-hidden whitespace-nowrap py-3">
+
+  <div class="animate-marquee inline-block text-black font-bold text-sm md:text-base">
+
+    ✅ Trusted Loan Provider &nbsp;&nbsp;&nbsp;
+
+    💸 Instant WhatsApp Support &nbsp;&nbsp;&nbsp;
+
+    🏦 Finance Against Property Available &nbsp;&nbsp;&nbsp;
+
+    ⚡ Quick Approval Process &nbsp;&nbsp;&nbsp;
+
+    📈 Helping Businesses Grow Since 2017 &nbsp;&nbsp;&nbsp;
+
+    🔥 Apply Today For Fast Loan Assistance &nbsp;&nbsp;&nbsp;
+
+    📞 Contact Pankaj Jha Directly On WhatsApp &nbsp;&nbsp;&nbsp;
+
+  </div>
+
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-black py-8 px-6 border-t border-gray-800">
+
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+
+      <div>
+        <h2 class="text-3xl font-bold text-orange-400 mb-3">
+          MAGMA
+        </h2>
+
+        <p class="text-gray-400">
+          Trusted Loan & Finance Services since 2017.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-xl mb-4">
+          Quick Links
+        </h3>
+
+        <ul class="space-y-2 text-gray-400">
+          <li><a href="#home" class="hover:text-orange-400">Home</a></li>
+          <li><a href="#services" class="hover:text-orange-400">Services</a></li>
+          <li><a href="#contact" class="hover:text-orange-400">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-xl mb-4">
+          Business Hours
+        </h3>
+
+        <p class="text-gray-400 mb-2">Monday - Saturday</p>
+        <p class="text-gray-400">10:00 AM - 7:00 PM</p>
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-800 mt-8 pt-5 text-center text-gray-500 text-sm">
+      © 2025 Magma Loan Finance. All Rights Reserved.
+    </div>
+    
+<div class="text-gray-600">
+  Website Designed by ||
+  <a href="https://www.linkedin.com/in/rishi-kumar-mishra-5b3b322a7?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+   target="_blank"
+   class="text-orange-400 hover:underline">
+   Rishi Kumar Mishra
+</a>
+</div>
+
+  </footer>
+
+  <!-- Script -->
+  <script>
+
+    // Mobile Menu
+    const menuBtn = document.getElementById("menuBtn"); 
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+
+    });
+
+    function sendToWhatsApp() {
+
+  let name = document.getElementById("name").value;
+  let mobile = document.getElementById("mobile").value;
+  let loanType = document.getElementById("loanType").value;
+  let message = document.getElementById("message").value;
+
+  let whatsappMessage =
+`Hi, New Loan Application Submitted.%0A%0A
+Full Name: ${name}%0A
+Mobile Number: ${mobile}%0A
+Loan Type: ${loanType}%0A
+Message: ${message}`;
+
+  let whatsappURL =
+`https://wa.me/917905616323?text=${whatsappMessage}`;
+
+  window.open(whatsappURL, "_blank");
+
+}
+
+
+  </script>
+
+  
+</body>
+
+</html>
